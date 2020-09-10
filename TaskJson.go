@@ -26,6 +26,7 @@ type Task struct {
 	SerialNumber string `json:"serialnumber"`
 	Status       string `json:"status"`
 	Uuid		 string `json:"uuid"`
+	IP		 	 string `json:"IP"`
 }
 
 func (task *Task) String() string {
